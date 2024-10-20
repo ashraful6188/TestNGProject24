@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-09-21T22:13:07 EDT" name="Suite" finished-at="2024-09-21T22:13:28 EDT" duration-ms="20856">
+    <groups>
+    </groups>
+    <test started-at="2024-09-21T22:13:07 EDT" name="Chrome Test" finished-at="2024-09-21T22:13:20 EDT" duration-ms="13751">
+      <class name="day16.ParallelTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:day16.ParallelTest@76a4ebf2]" started-at="2024-09-21T22:13:07 EDT" name="setup" finished-at="2024-09-21T22:13:20 EDT" duration-ms="13441" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://opensource-demo.orangehrmlive.com/web/index.php/auth/login]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testLogo()[pri:1, instance:day16.ParallelTest@76a4ebf2]" started-at="2024-09-21T22:13:20 EDT" name="testLogo" finished-at="2024-09-21T22:13:20 EDT" duration-ms="52" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogo -->
+        <test-method signature="testTitle()[pri:2, instance:day16.ParallelTest@76a4ebf2]" started-at="2024-09-21T22:13:20 EDT" name="testTitle" finished-at="2024-09-21T22:13:20 EDT" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTitle -->
+        <test-method signature="testURL()[pri:3, instance:day16.ParallelTest@76a4ebf2]" started-at="2024-09-21T22:13:20 EDT" name="testURL" finished-at="2024-09-21T22:13:20 EDT" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testURL -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:day16.ParallelTest@76a4ebf2]" started-at="2024-09-21T22:13:20 EDT" name="tearDown" finished-at="2024-09-21T22:13:20 EDT" duration-ms="185" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- day16.ParallelTest -->
+    </test> <!-- Chrome Test -->
+    <test started-at="2024-09-21T22:13:07 EDT" name="Edge Test" finished-at="2024-09-21T22:13:25 EDT" duration-ms="18708">
+      <class name="day16.ParallelTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:day16.ParallelTest@3ba987b8]" started-at="2024-09-21T22:13:07 EDT" name="setup" finished-at="2024-09-21T22:13:24 EDT" duration-ms="17287" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://opensource-demo.orangehrmlive.com/web/index.php/auth/login]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testLogo()[pri:1, instance:day16.ParallelTest@3ba987b8]" started-at="2024-09-21T22:13:24 EDT" name="testLogo" finished-at="2024-09-21T22:13:24 EDT" duration-ms="41" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogo -->
+        <test-method signature="testTitle()[pri:2, instance:day16.ParallelTest@3ba987b8]" started-at="2024-09-21T22:13:24 EDT" name="testTitle" finished-at="2024-09-21T22:13:24 EDT" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTitle -->
+        <test-method signature="testURL()[pri:3, instance:day16.ParallelTest@3ba987b8]" started-at="2024-09-21T22:13:24 EDT" name="testURL" finished-at="2024-09-21T22:13:24 EDT" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testURL -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:day16.ParallelTest@3ba987b8]" started-at="2024-09-21T22:13:24 EDT" name="tearDown" finished-at="2024-09-21T22:13:25 EDT" duration-ms="1319" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- day16.ParallelTest -->
+    </test> <!-- Edge Test -->
+    <test started-at="2024-09-21T22:13:07 EDT" name="firefox Test" finished-at="2024-09-21T22:13:28 EDT" duration-ms="20856">
+      <class name="day16.ParallelTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:day16.ParallelTest@72cc7e6f]" started-at="2024-09-21T22:13:07 EDT" name="setup" finished-at="2024-09-21T22:13:27 EDT" duration-ms="19929" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://opensource-demo.orangehrmlive.com/web/index.php/auth/login]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firfox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testLogo()[pri:1, instance:day16.ParallelTest@72cc7e6f]" started-at="2024-09-21T22:13:27 EDT" name="testLogo" finished-at="2024-09-21T22:13:27 EDT" duration-ms="41" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogo -->
+        <test-method signature="testTitle()[pri:2, instance:day16.ParallelTest@72cc7e6f]" started-at="2024-09-21T22:13:27 EDT" name="testTitle" finished-at="2024-09-21T22:13:27 EDT" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTitle -->
+        <test-method signature="testURL()[pri:3, instance:day16.ParallelTest@72cc7e6f]" started-at="2024-09-21T22:13:27 EDT" name="testURL" finished-at="2024-09-21T22:13:27 EDT" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testURL -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:day16.ParallelTest@72cc7e6f]" started-at="2024-09-21T22:13:27 EDT" name="tearDown" finished-at="2024-09-21T22:13:28 EDT" duration-ms="837" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- day16.ParallelTest -->
+    </test> <!-- firefox Test -->
+  </suite> <!-- Suite -->
+</testng-results>
