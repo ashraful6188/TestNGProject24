@@ -7,11 +7,11 @@ import org.testng.ITestResult;
 public class MyListener implements ITestListener {
 
 	public void onStart(ITestContext context) {
-		System.out.println("Test execution started......");
+		System.out.println("Test execution started......before all test execution");
 	}
 
 	public void onTestStart(ITestResult result) {
-		System.out.println("Test started .....");
+		System.out.println("Test started .....before every test method");
 	}
 
 	public void onTestSuccess(ITestResult result) {

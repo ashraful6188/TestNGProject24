@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="day16.HardVsSoftAssertion">
+      <class name="day16.DataproviderWithParallelTest">
         <methods>
-          <include name="test_softassertions"/>
+          <include name="loginTest" invocation-numbers="0 1 2 3 4 5"/>
         </methods>
-      </class> <!-- day16.HardVsSoftAssertion -->
+      </class> <!-- day16.DataproviderWithParallelTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

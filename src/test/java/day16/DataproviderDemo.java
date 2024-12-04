@@ -16,8 +16,11 @@ public class DataproviderDemo {
 	@DataProvider(name = "dp1", indices= {0,3})
 	public Object[][] automationData() {
 		
-		Object data[][] = { { "Jhon", 1001 }, { "Smith", 1002 }, { "Juree", 1003 }, { "Monica", 1004 },
-				{ "Me x", 1005 },
+		Object data[][] = { { "Jhon", 1001 }, 
+							{ "Smith", 1002 },
+							{ "Juree", 1003 },
+							{ "Monica", 1004 },
+							{ "Me x", 1005 },
 
 		};
 		return data;
